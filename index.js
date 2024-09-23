@@ -162,7 +162,7 @@ function csrfProtectionDefault(request, reply, next) {
 }
 
 module.exports = fp(fastifyCsrfProtection, {
-	fastify: '4.x',
+	fastify: '5.x',
 	name: '@fastify/csrf-protection'
 })
 module.exports.default = fastifyCsrfProtection
